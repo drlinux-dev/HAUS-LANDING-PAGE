@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
+    <!-- Enlace al archivo JavaScript -->
+    <script src="/html/html y javascript/script.js"></script>
 </head>
 <body> 
     <!--Aquí va el header-->
@@ -30,61 +32,46 @@
 
         </div>
     </section>
-<section class="section logos-section"> <!--Aquí va la sección  1 de logos de clientes-->
-    <div class="wrap-logos-section">
-            <img src="/IMAGENES/ISO3.png" alt="" class="logo-brand">
-            <img src="/IMAGENES/ISO3.png" alt="" class="logo-brand">
-            <img src="/IMAGENES/ISO3.png" alt="" class="logo-brand">
-            <img src="/IMAGENES/ISO3.png" alt="" class="logo-brand">
-            <img src="/IMAGENES/ISO3.png" alt="" class="logo-brand">
-    </div>
-
     <section class="categoria-productos">
         <div class="wrap-title-section">
-            
             <h2>NUESTROS SERVICIOS</h2>
-
         </div>
         <div class="wrap-servicios-section">
-            <a href="#" class="item-servicios-section">
+            <a href="#" class="item-servicios-section" data-service="diseno-audiovisual">
                 <img src="/IMAGENES/SERVICIOS/DISEÑO AUDIOVISUAL (2).png" alt="">
                 <p>Diseño Audiovisual</p>
             </a>
-            <a href="#" class="item-servicios-section">
+            <a href="#" class="item-servicios-section" data-service="diseno-grafico">
                 <img src="/IMAGENES/SERVICIOS/DISEÑO GRÁFICO.png" alt="">
                 <p>Diseño gráfico</p>
             </a>
-            <a href="#" class="item-servicios-section">
+            <a href="#" class="item-servicios-section" data-service="diseno-web">
                 <img src="/IMAGENES/SERVICIOS/DISEÑO WEB.png" alt="">
                 <p>Diseño web</p>
             </a>
-            <a href="#" class="item-servicios-section">
+            <a href="#" class="item-servicios-section" data-service="community-management">
                 <img src="/IMAGENES/SERVICIOS/CM.png" alt="">
                 <p>Community Management</p>
             </a>
-            <a href="#" class="item-servicios-section">
+            <a href="#" class="item-servicios-section" data-service="marketing-digital">
                 <img src="/IMAGENES/SERVICIOS/mkt DIGITAL.png" alt="">
                 <p>Marketing Digital</p>
             </a>
         </div>
-        
-
+    
         <div class="wrap-two-column">
-            <div class="column">
+            <div class="column" id="service-image">
                 <img src="/IMAGENES/SERVICIOS/DISEÑO WEB.png" alt="Descripción de la imagen">
             </div>
-            <div class="column">
-                <h2>Título del Texto</h2>
-                <p>
+            <div class="column" id="service-description">
+                <h2 id="service-title">Título del Texto</h2>
+                <p id="service-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor eros vel arcu varius, at consectetur orci scelerisque. Suspendisse potenti. Fusce euismod tortor et nunc scelerisque, at posuere nunc vestibulum.
-                </p>
-                <p>
-                    Integer mollis quam vitae tellus tempor, id efficitur neque vehicula. Maecenas feugiat vehicula turpis, et dapibus velit. Donec sed dignissim magna. Praesent cursus mi sed libero dapibus, non scelerisque ligula sagittis.
                 </p>
             </div>
         </div>
-        
-</section>
+    </section>
+    
 
 <section class="wrap-dos-columnas-section">
     <h2>Formulario de contacto</h2>
