@@ -28,10 +28,11 @@ ul, li{
 
 .wrap-cta {
    padding: 1.5rem 0;
+   
 }
 
 .cta-a{
-   color: #fff;
+   color: #000;
    font-weight: bold;
    font-size: 1.2rem;
    background-color: var(--main-c);
@@ -143,6 +144,7 @@ width: 100%;
    justify-content: center;
    text-align: center;
    box-sizing: border-box;
+   color: #000;
 }
 
 .item-servicios-section img {
@@ -286,29 +288,33 @@ width: 100%;
    
 }
 
-.menu-footer-section{
-   padding: 1rem 0;
-   width: 100%;
+.menu-footer-section {
+   padding: 0.4rem 0; /* Reducir padding para disminuir el espacio */
+   margin-top: 0; /* Eliminar cualquier margen superior */
    background-color: #fff;
-   padding: 1rem 0;
    box-sizing: border-box;
    text-align: center; /* Centra el contenido dentro del footer */
-
 }
+
 
 .wrap-social-logos ul,.wrap-menu-footer-section ul {
      display: flex ;
      justify-content: center; 
 
+
+     
+
 }  
 
 .social-logo{
 
-max-width: 75px ;
+max-width: 50px ;
 width: 100%;
 padding: 1rem  ;
 
 }
+
+
 
 .wrap-menu-footer-section ul li {
    font-size: 1rem ;
