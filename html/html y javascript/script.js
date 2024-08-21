@@ -3,27 +3,27 @@ document.addEventListener("DOMContentLoaded", function() {
         "diseno-audiovisual": {
             title: "Diseño Audiovisual",
             image: "/IMAGENES/SERVICIOS/DISEÑO AUDIOVISUAL (2).png",
-            description: "Descripción del servicio de Diseño Audiovisual."
+            description: "Haz que tu marca hable a través de imágenes y videos impactantes. Creamos contenido visual que captura la esencia de tu negocio."
         },
         "diseno-grafico": {
             title: "Diseño Gráfico",
             image: "/IMAGENES/SERVICIOS/DISEÑO GRÁFICO.png",
-            description: "Descripción del servicio de Diseño Gráfico."
+            description: "Dale vida a tu identidad visual con diseños únicos y creativos. En Haus, convertimos tus ideas en piezas gráficas memorables."
         },
         "diseno-web": {
             title: "Diseño Web",
             image: "/IMAGENES/SERVICIOS/DISEÑO WEB.png",
-            description: "Descripción del servicio de Diseño Web."
+            description: "Crea una experiencia digital inolvidable. Desarrollamos sitios web que combinan diseño atractivo con funcionalidad intuitiva."
         },
         "community-management": {
             title: "Community Management",
             image: "/IMAGENES/SERVICIOS/CM.png",
-            description: "Descripción del servicio de Community Management."
+            description: "Construye una comunidad leal alrededor de tu marca. Gestionamos tus redes sociales para maximizar la interacción y el crecimiento."
         },
         "marketing-digital": {
             title: "Marketing Digital",
             image: "/IMAGENES/SERVICIOS/mkt DIGITAL.png",
-            description: "Descripción del servicio de Marketing Digital."
+            description: "Impulsa tu negocio con estrategias efectivas que conectan con tu público y generan resultados medibles. En Haus, te ayudamos a alcanzar nuevas alturas."
         }
     };
 
