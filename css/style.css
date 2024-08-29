@@ -96,6 +96,14 @@ width: 100%;
 }
 
 
+
+
+
+
+
+
+
+
 /** Logo Brand Section **/
 
 .section{
@@ -131,6 +139,28 @@ width: 100%;
    margin: 3rem 1rem ;
 
 }
+
+
+/** SOBRE NOSOTROS SECTION**/
+
+.wrap-sobreNosotros-section p {
+   text-align: center;
+   margin-bottom: 20px; /* Espacio entre párrafos */
+}
+
+/* Opcional: Ajustar el espaciado del primer y último párrafo si es necesario */
+.wrap-sobreNosotros-section p:first-of-type {
+   margin-top: 0;
+}
+
+.wrap-sobreNosotros-section p:last-of-type {
+   margin-bottom: 0;
+}
+
+
+
+
+
 
 /** Servicios section **/
 
