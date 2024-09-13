@@ -140,36 +140,50 @@ width: 100%;
 
 }
 
-/**SECCIÓN SOBRE NOSOTROS**/
-
-
+/* SECCIÓN SOBRE NOSOTROS */
 .sobre-nosotros {
    display: flex;
    align-items: center;
    padding: 60px 0;
+   background-color: #f2f2f2;
 }
 
 .sobre-nosotros .titulo {
    flex: 1;
+   position: relative;
    text-align: center;
-   padding-left: 15rem; /* O puedes alinearlo a la izquierda si prefieres */
+   padding-left: 15rem; /* Ajusta según prefieras */
 }
 
 .sobre-nosotros .titulo h2 {
-   font-size: 3em; /* Ajusta el tamaño según prefieras */
+   position: absolute;
+   top: 50%; 
+   left: 65.5%;
+   bottom: 55 ;
+   transform: translate(-50%, -50%);
+   font-size: 2.5em; /* Ajusta el tamaño según prefieras */
    font-weight: bold;
+   color: #000;
+   z-index: 1;
+}
+
+.sobre-nosotros .titulo img {
+   max-width: 450px; /* Ajusta el tamaño del círculo */
+   width: 100%;
+   height: auto;
+   z-index: 0;
 }
 
 .sobre-nosotros .texto {
    flex: 2;
-   padding-left: 1px;
-   text-align: justify; /* Alinea el texto para que quede mejor distribuido */
+   padding-left: 30px; /* Ajuste entre la imagen y el texto */
+   text-align: justify;
 }
 
 .sobre-nosotros .texto p {
-   margin-bottom: 25px; /* Espacio entre párrafos */
+   margin-bottom: 25px;
+   font-size: 20px;
 }
-
 
 
 
