@@ -188,7 +188,7 @@ width: 100%;
 
 
 
-/** Servicios section **/
+/**SECCIÓN  NUESTRSOS SERVICIOS **/
 
 .wrap-servicios-section {
    display: flex;
@@ -219,6 +219,13 @@ width: 100%;
 }
 
 
+/* Selecciona el título específico por su ID */
+#service-title {
+   text-align: left; /* Centra el texto */
+   font-size: 30px; /* Ajusta el tamaño del texto según lo que necesites */
+   margin-top: 10px; /* Ajusta el margen superior si es necesario */
+   margin-bottom: 40px;
+}
 
 
 
@@ -250,6 +257,7 @@ width: 100%;
 .column {
    padding: 1rem;
    box-sizing: border-box;
+   
 }
 
 .column img {
